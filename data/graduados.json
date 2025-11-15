@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Gabriel Ferrari",
+    "curso": "Sistemas de Informação",
+    "inicio": "2015",
+    "conclusao": "2025",
+    "foto": "assets/default.png",
+    "softSkills": ["HTML", "CSS", "Java", "Liderança"],
+    "techSkills": ["Excel", "Power BI", "Gestão de Projetos"],
+    "trabalhoAtual": "Analista na XYZ"
+  },
+  {
+    "nome": "Ana Costa",
+    "curso": "Administração",
+    "inicio": "2017",
+    "conclusao": "2021",
+    "foto": "assets/default.png",
+    "softSkills": ["Empatia", "Comunicação", "Liderança"],
+    "techSkills": ["Excel", "Power BI", "Gestão de Projetos"],
+    "trabalhoAtual": "Analista na XYZ"
+  }
+]
