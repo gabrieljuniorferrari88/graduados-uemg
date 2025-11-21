@@ -27,7 +27,7 @@ const cursosData = [
   {
     nome: "Sistemas de Informação",
     descricao: "Formação em tecnologia da informação e gestão",
-    icone: "💾",
+    icone: "⚙️",
   },
 ];
 
