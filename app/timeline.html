@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graduados UEMG | Linha do tempo</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="assets/logo.png" type="imagex/png" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img style="width: 55px" src="assets/logo.png" alt="Logo UEMG" class="d-inline-block align-text-top me-2" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="timeline.html">Linha do Tempo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">Linha do Tempo dos Graduados</h1>
+      <p class="lead">
+        Conheça a trajetória completa de todos os nossos formandos
+      </p>
+    </div>
+  </section>
+
+  <!-- Linha do Tempo -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12">
+          <div class="input-group mb-3">
+            <input type="text" id="search-input" class="form-control"
+              placeholder="Buscar por nome, curso ou habilidades..." />
+            <button class="btn btn-outline-primary" type="button" id="search-btn">
+              Buscar
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="timeline" id="timeline-container">
+            <!-- Linha do tempo carregada dinamicamente via jQuery -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Graduados UEMG</h5>
+          <p>Divulgando talentos e histórias de sucesso</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p>&copy; 2023 UEMG. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
